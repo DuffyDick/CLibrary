@@ -32,14 +32,20 @@ int showinterface(){ //display user interface
   return i;
 }
 
+void set directory(){ //set library directory
+  
+}
+
+
 
 /*void deletebooks; //delete a book
 void movebooks; //move a book into another folder
 void searchbooks; //Search a book
 void insertbooks; //Insert a new book from given folder
 void information; //show information like author and number of page
-void set directory; //set library directory*/
+*/
 int main(){
-  showinterface();
+  int choice;
+  choice = showinterface();
   return 0;
 }
